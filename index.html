@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <title>Cheatsheet template</title>
+</head>
+<body>
+    <!-- <h1>CheatSheet-template</h1> -->
+    <nav>
+        <span class="logo"><img src="logo.png" alt=""></span>
+        <div class="content centre">
+            This HTML cheatsheet is for you!
+        </div>
+    </nav>
+
+    <div class="container">
+        <ol>
+            <li><b>HTML Boilerplate:</b> This is the basic HTML boilerplate
+                <pre class="language-js"><code>
+                    &lt;!DOCTYPE html&gt
+                    &lt;html lang="en"&gt
+                    &lt;head&gt
+                        &lt;meta charset="UTF-8"&gt
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+                        &lt;title&gtDocument&lt;/title&gt
+                    &lt;/head&gt
+                    &lt;body&gt
+                        
+                    &lt;/body&gt
+                    &lt;/html&gt</code></pre>
+            </li>
+            <li><b>CSS:</b> This is the basic CSS boilerplate.
+                <pre class="language-css"><code>
+                    *{
+                        margin: 0;
+                        padding: 0;
+                    }
+                    nav{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: black;
+                        color: white;
+                        height: 100px;
+                    }
+                    .container{
+                        width: 60vw;
+                        margin: auto;
+                        padding: 50px 0px;
+                        font-family: "Roboto", sans-serif;
+                    }
+                    .content{
+                        font-family: "Potta One", system-ui;
+                    }
+                    .logo img{
+                        width: 50px;
+                    }
+                    .logo{
+                        padding: 0 20px;
+                    }
+                    .toolbar-item button{
+                        cursor: pointer !important;
+                        color: white !important;
+                        border: 2px solid white !important;
+                        border-radius: 10px !important;
+                        padding: 5px 10px !important;
+                    }
+                </code></pre>
+            </li>
+            <li><b>JavaScript:</b> variable declaration in JavaScript.
+                <pre class="language-js"><code>var i = 5;</code></pre>
+            </li>
+        </ol>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
